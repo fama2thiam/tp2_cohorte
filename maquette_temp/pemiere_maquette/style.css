@@ -1,0 +1,163 @@
+
+.corps
+{
+    background-color: #ffe8ee;
+}
+
+.traitHorz
+{
+    width: 50px;
+    border-radius: 15px 15px 15px 15px;
+}
+.paragraphe1
+{
+    text-align: center;
+}
+
+/* HEADER */
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    background-color: #222222;
+}
+
+.flotte1 {
+float:left;
+}
+
+.truc-a-centrer {
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 40%; /* à 50%/40% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+/* FOOTER */
+
+/* ADDITIONAL CLASSES */
+.separator{
+    height: 10px;
+   
+}
+.flat{
+    height: 400px;
+    background-color: #62bcda;
+}
+.conteneur {
+  display: flex;
+  align-items: center;
+  height: 300px;
+}
+
+.img {
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image1 {
+float: right;
+display:inline-block;
+vertical-align:top;
+right: 100px;
+
+}
+.image {
+
+display:inline-block;vertical-align:top;
+
+margin-left: 250px;
+
+}
+.text2
+{
+    position: relative;
+    float: 60px;
+}
+.photogauche {
+float: left;
+width: 200px; /* largeur en pixel de ta photo */
+height:75px; /* hauteur en pixel de ta photo */
+margin-right:400px; /* marge en pixel à droite de la photo */
+}
+.photodroite {
+float: right;
+margin-left:500px; /* marge en pixel à droite de la photo */
+}
+ .section2
+{
+    display: flex;
+    margin-left: 300px;
+    width: 900px;
+    position: relative;
+    top: 10px;
+}
+.bloc-input
+{
+    width: 110px;
+    border-radius: 25px 25px 25px 25px;
+    height: 30px;
+    border-width: 0.5px;
+    background-color:  #ffb9cd;
+}
+.blocImages
+{
+    display: flex;
+    margin: 150px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    border-color: red;
+
+}
+figcaption
+{
+    font-family: Nunito,sans-serif;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+figure + p 
+{
+    position: relative;
+    top: 20px;
+}
+p 
+{
+    font-family: lato,sans-serif;
+}
+.mobile
+{
+
+    border-radius: 20px 20px 20px 20px;
+    height: 280px;
+    position: relative;
+    right: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px grey;
+}
+.website
+{
+    border-radius: 20px 20px 20px 20px;
+    height: 280px;
+    box-shadow: 5px 5px 5px grey;
+    border-color: white;
+    background-color: white;
+}
+.design
+{
+    border-radius: 20px 20px 20px 20px;
+    height: 280px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    border-color: white;
+    box-shadow: 5px 5px 5px grey;
+}
+ #backImg
+ {
+    background-image:url(img/Section 3.png);
+    position: relative;
+ }
